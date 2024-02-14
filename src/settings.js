@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
         <div class="settingsbackground">
             <h1 class="sticky2">Settings</h1>
             <button class="backbtn1"onClick={()=>back()}>Back</button>
-            {/* <button class="changepass">change password </button> */}
+            <button class="changepass">change password </button>
             <button class="changepass">change password </button>
             <button class="changemail">change E-mail </button>
             <button class="Downloads">Downloads</button>
