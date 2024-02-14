@@ -1,0 +1,633 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input.firstPage {
+  background-color: aqua;
+  color: red;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.signuppage{
+  background-color: rgb(83, 92, 92);
+  padding:10%;
+  padding-left: 500px;
+  border-radius: 20px;
+  padding-right: 50px;
+}
+.loguser{
+   
+  padding-left: 40%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  
+  background-image:url('https://th.bing.com/th/id/OIP.1NkeEsn7HeZdoJXsfeo-BwHaEo?rs=1&pid=ImgDetMain');
+  background-repeat: no-repeat;
+  margin-left:300px;
+  
+ margin-top: 100px;
+ 
+}
+.logusername{
+  padding :10px;
+  border: #282c34;
+  border-radius:20px;  
+  margin-left:-340px; 
+  margin-top: -20px;
+}
+.logpass{
+  border-radius:20px; 
+  margin:10px; 
+  padding :10px;
+  border: #282c34;
+  margin-left:-340px; 
+   
+ }
+.login{
+  border-radius:20px;  
+  padding :8px;
+  border: #282c34;
+  margin-left: -10px;
+  background-color: rgb(172, 191, 206);
+  margin-left:-370px; 
+  margin-top: 30px;
+}
+.sign{
+  border-radius:20px;  
+  padding :8px;
+  border: #282c34;
+  margin-left: 10px;
+  background-color: rgb(172, 191, 206);
+   
+   
+}
+.forgot{
+  border-radius:20px;  
+  padding :8px;
+  border: #282c34;
+  margin-left: 10px;
+  background-color: rgb(172, 191, 206);
+}
+ 
+.signname{
+  padding :10px;
+  border: #6c82ad;
+  border-radius:20px;  
+  margin:10px
+}
+.signpass{
+  padding :10px;
+  border: #181a1d;
+  border-radius:20px; 
+  margin:10px 
+  
+}
+.confirmpass{
+  padding :10px;
+  border: #0f1212;
+  border-radius:20px;  
+  margin :10px
+}
+.radios{
+  padding :10px;
+  border: #0f1212;
+  border-radius:20px;  
+  margin-left :40px;
+}
+.ages{
+  padding :10px;
+  border: #0f1212;
+  border-radius:20px;  
+  margin-left :10px;
+}
+.signbutton{
+  padding :10px;
+  border: #0f1212;
+  border-radius:20px;  
+   margin:10px
+}
+.forpass{
+  background-color:lightblue;
+  padding-left:0px;
+  padding:100px;
+   
+}
+ .passwordforgot{
+  padding:10px;
+
+ }
+ .email{
+  padding: 7px; 
+  position: fixed; 
+  top:10px; 
+  border-radius: 10px;  
+  font-weight: bold;
+  font-size:15px; 
+  width: 190px;
+  background: none;
+  margin: 50px;
+  color: rgb(147, 230, 230); 
+ }
+ .verification{
+  padding: 1px; 
+  position: fixed; 
+  top:60px; 
+  border-radius: 10px;  
+  font-weight: bold;
+  font-size:8px; 
+  width: 90px;
+  background: none;
+  margin: 50px;
+  color: rgb(146, 152, 152); 
+ }
+ .newpassword{
+  padding: 7px; 
+  position: fixed; 
+  top:110px; 
+  border-radius: 10px;  
+  font-weight: bold;
+  font-size:15px; 
+  width: 190px;
+  background: none;
+  margin: 50px;
+  color: rgb(18, 20, 20); 
+ }
+ .conpassword{
+  padding: 7px; 
+  position: fixed; 
+  top:160px; 
+  border-radius: 10px;  
+  font-weight: bold;
+  font-size:15px; 
+  width: 190px;
+  background: none;
+  margin: 50px;
+  color: rgb(18, 20, 20); 
+ }
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(32, 182, 232);
+  text-align: center;
+   
+}
+.sticky2{
+  position: fixed;
+  top:-20px;
+  width: 100%;
+  background-color: rgb(32, 182, 232);
+  text-align: center;
+   
+}
+ 
+.appname{ 
+  width:100px; 
+  border-radius: 20%;  
+  position: fixed;
+    left: 50px;
+    top:6px;    
+    font-family: "Arial", Impact, Charcoal, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    color: #1f0211f5;
+    text-shadow: 2px 2px 4px black;
+}
+ 
+ .homebtn1{
+    padding: 8px; 
+    position: fixed;
+    left: 150px;
+    top:23px;
+    border-collapse: 40px;
+    border-radius: 10px;
+    background-color: rgb(32, 182, 232);
+    font-weight: bold;
+ }
+ .profilebtn2{
+  padding: 10px; 
+  position: fixed;
+    left: 1000px;
+    top:20px;
+    border-collapse: 40px;
+    border-radius: 10px;
+    background-color: rgb(32, 182, 232);
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    font-size:10px;
+ }
+ .uploadbtn3{
+  padding: 10px; 
+  position: fixed;
+  left: 900px;
+  top:20px;
+  border-collapse: 40px;
+  border-radius: 10px;
+  background-color: rgb(32, 182, 232);
+  text-shadow: 2px 2px 4px black;
+  font-weight: bold;
+  font-size:10px;
+ }
+ .notificationbtn4{
+  padding: 10px; 
+  position: fixed;
+  left: 800px;
+  top:20px;
+  border-collapse: 40px;
+  border-radius: 10px;
+  background-color: rgb(32, 182, 232);
+  text-shadow: 2px 2px 4px black;
+  font-weight: bold;
+  font-size:10px;
+ }
+ .proimage{
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  padding: 1px;
+   margin-left: 550px; 
+  top:10px;
+
+  
+  }
+  .postbtn1{
+    padding: 6px; 
+    position: fixed;
+    left: 750px;
+    top:170px;
+    border-collapse: 1px;
+    border-radius: 10px;
+    background-color: rgb(232, 243, 246);
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    font-size:10px;
+    background: none;
+    }
+     .editpro{
+      padding: 6px; 
+    position: fixed;
+    left: 820px;
+    top:170px;
+    border-collapse: 1px;
+    border-radius: 10px;
+    background-color: rgb(232, 243, 246);
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    font-size:10px;
+    background: none;
+     }
+     .editproimage{
+      border-radius: 100px;
+      height: 150px;
+      width: 150px;
+      padding: 1px; 
+      margin-left: 60px; 
+       
+      top:10px;
+     }
+     .profilename{
+      padding: 10px; 
+    position: fixed;
+    left: 100px;
+    top:160px;
+    border-collapse: 40px;
+    border-radius: 10px;
+    /* background-color: rgb(32, 182, 232);
+    text-shadow: 2px 2px 4px black; */
+    font-weight: bold;
+    font-size:10px;
+     }
+     .profileusername{
+    padding: 10px; 
+    position: fixed;
+    left: 100px;
+    top:210px;
+    border-collapse: 40px;
+    border-radius: 10px;
+    /* background-color: rgb(32, 182, 232); */
+    /* text-shadow: 2px 2px 4px black; */
+    font-weight: bold;
+    font-size:10px;
+     }
+     .dateofbirth{
+      padding: 10px; 
+    position: fixed;
+    left: 100px;
+    top:260px;
+    border-collapse: 40px;
+    border-radius: 10px;
+    /* background-color: rgb(32, 182, 232); */
+    /* text-shadow: 2px 2px 4px black; */
+    font-weight: bold;
+    font-size:10px;
+     }
+     .profilebio{
+    padding: 10px; 
+    position: fixed;
+    left: 100px;
+    top:310px;
+    border-collapse: 40px;
+    border-radius: 10px;
+    /* background-color: rgb(32, 182, 232); */
+    /* text-shadow: 2px 2px 4px black; */
+    font-weight: bold;
+    font-size:10px;
+     }
+     .gender{
+      padding: 10px; 
+      position: fixed;
+      left: 120px;
+      top:360px;
+      border-collapse: 40px;
+      border-radius: 10px;
+      /* background-color: rgb(32, 182, 232);
+      text-shadow: 2px 2px 4px black; */
+      font-weight: bold;
+      font-size:10px;
+      
+     }
+     .gender1{
+      padding: 10px; 
+      position: fixed;
+      left: 180px;
+      top:360px;
+      border-collapse: 40px;
+      border-radius: 10px;
+      background-color: rgb(32, 182, 232);
+      text-shadow: 2px 2px 4px black;
+      font-weight: bold;
+      font-size:10px;
+     }
+    .probackground{
+      background-color: rgb(195, 201, 154);
+      padding-bottom: 20px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-left: 0px;
+      
+    }
+     
+     
+    .likesbtn1:hover{
+      background-color: rgb(125, 222, 227);
+    }
+     
+    .commentsbtn1:hover{
+      background-color: rgb(125, 222, 227);
+    }
+    .settingsbtn1{
+      padding: 7px; 
+      position: fixed;
+      left: 1020px;
+      top:4px;
+      border-collapse: 40px;
+      border-radius: 10px;
+      background-color: rgb(32, 182, 232);
+      text-shadow: 2px 2px 4px black;
+      font-weight: bold;
+      font-size:10px;
+      background: none;
+     }
+    .backbtn1{
+      padding: 7px; 
+      position: fixed;
+      left: 150px;
+      top:4px;
+      border-collapse: 40px;
+      border-radius: 10px;
+      background-color: rgb(77, 186, 220);
+      font-weight: bold;
+      font-size:10px;
+      background: none;
+       
+     }
+    .namebtn1{
+      padding: 6px; 
+      position: fixed;
+      left: 580px;
+      top:240px; 
+      border-radius: 10px; 
+      text-shadow: 2px 2px 4px black;
+      font-weight: bold;
+      font-size:10px; 
+      width: 90px;
+      background: none;
+      /* border :none; */
+     }
+    .changepass{
+      padding: 7px; 
+      position: fixed; 
+      top:10px; 
+      border-radius: 10px; 
+      /* text-shadow: 2px  black; */
+      font-weight: bold;
+      font-size:15px; 
+      width: 190px;
+      background: none;
+      margin: 50px;
+      color: rgb(147, 230, 230); 
+     }
+    .changepass:hover{
+      background-color: rgb(125, 141, 142);
+     }
+    .changemail{
+      padding: 7px; 
+      position:fixed; 
+      top:50px; 
+      border-radius: 10px; 
+      font-weight: bold;
+      font-size:15px; 
+      color: rgb(147, 230, 230);
+      width: 190px;
+      background: none;
+      margin: 50px;
+    }
+    .changemail:hover{
+      background-color: rgb(125, 141, 142);
+     }
+     .Downloads{
+      padding: 7px; 
+      position:fixed; 
+      top:90px; 
+      border-radius: 10px; 
+      font-weight: bold;
+      font-size:15px; 
+      color: rgb(147, 230, 230);
+      width: 190px;
+      background: none;
+      margin: 50px;
+     }
+     .Downloads:hover{
+      background-color: rgb(125, 141, 142);
+     }
+     .settingsbackground{ 
+      padding-top: 1px;
+      width: 1263px; 
+      padding-bottom:1px;
+       
+    } 
+    @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+  
+
+*{
+  box-sizing: border-box;
+  transition: all .15s ease-in-out;
+} 
+a{
+  cursor:pointer;
+}
+/* footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  position:static;
+} */
+
+ 
+    .param{
+      cursor: pointer;
+       
+      border-radius: 4px;
+    }
+    .img-container{
+      img{
+        width: 100%;
+      }
+    }
+    .like-checkbox{
+      display: none;
+      
+    }
+    .toolbar{
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      .like, .comment, .transfer, .signet{
+         @include:space(8px, 0);
+      }
+      .signet{
+        position: absolute;
+        right: 0px;
+      }
+    }
+    .description{
+      @include space(6px, 6px);
+      font-size: 16px;
+      strong{
+        font-weight: bold;
+        font-size: 15px;
+      }
+    }
+  /* }
+} */ */
+
+.check-like{
+  animation-duration: 0.2s;
+  animation-name:like;
+  fill: #1F81BA;
+}
+.check-path{
+  fill: #1F81BA;
+  background: #1F81BA;
+}
+
+@keyframes like {
+  from{
+    transform: scale(1);
+  }
+  75%{
+    transform: scale(1.4);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+/* .headernotify{
+  margin-top:50px;
+
+} */
+.footernotify{
+  position: fixed;
+   left: 0;
+   bottom: 10%;
+   width: 100%;
+   height: 10%;
+   background-color: rgb(44, 41, 41);
+   color: white;
+   text-align: center;
+}
+.uploadbtnnotify{
+  padding: 10px; 
+  position: fixed;
+  left: 900px;
+  top:5px;
+  border-collapse: 40px;
+  border-radius: 10px;
+  background-color: rgb(32, 182, 232);
+  text-shadow: 2px 2px 4px black;
+  font-weight: bold;
+  font-size:10px;
+   
+}
+.profilenotify{
+  padding: 10px; 
+  position: fixed;
+  left: 1000px;
+  top:5px;
+  border-collapse: 40px;
+  border-radius: 10px;
+  background-color: rgb(32, 182, 232);
+  text-shadow: 2px 2px 4px black;
+  font-weight: bold;
+  font-size:10px;
+}
+.backnotify{
+  padding: 10px; 
+  position: fixed;
+  left: 100px;
+  top:5px;
+  border-collapse: 40px;
+  border-radius: 10px;
+  background-color: rgb(32, 182, 232);
+  text-shadow: 2px 2px 4px black;
+  font-weight: bold;
+  font-size:10px;
+}
+    
