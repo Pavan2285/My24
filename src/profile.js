@@ -26,7 +26,7 @@ function Profile(){
             <button class="settingsbtn1"onClick={()=>Settings()}><i class="fa fa-gear"></i>Settings</button>
             <button class="backbtn1"onClick={()=>back()}><i class="fa fa-arrow-circle-left"></i>Back</button>
             <button class ="namebtn1"><i class="fa fa-camera"></i>Name</button> 
-            {/* <button class="editpro"onClick={()=>editpro()}><i class="material-icons" ></i>Edit Profile</button> */}
+            <button class="editpro"onClick={()=>editpro()}><i class="material-icons" ></i>Edit Profile</button>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                 </link> 
 
